@@ -25,7 +25,7 @@ matplotlib == 3.5.1
 pandas == 1.4.2
 tabulate == 0.8.9
 
-References:
+References (links from May 28, 2022):
 Method how to print the keys (of cities) - used in line 30
 https://stackoverflow.com/questions/5904969/how-to-print-a-dictionarys-key
 
