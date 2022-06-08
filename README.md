@@ -13,6 +13,7 @@ Satistical analysis of bikeshare data. Code in project02 file.
 chicago.cvs
 new_york_city.cvs
 washington.cvs
+text file with requirements and references
 
 ### Credits
 Requirements:
