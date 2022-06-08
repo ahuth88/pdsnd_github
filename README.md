@@ -7,7 +7,7 @@
 Bikeshare Data Statistics
 
 ### Description
-Satistical analysis of bikeshare data.
+Satistical analysis of bikeshare data. Code in project02 file.
 
 ### Files used
 chicago.cvs
