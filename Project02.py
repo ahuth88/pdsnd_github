@@ -151,7 +151,7 @@ def time_stats(df, month, day):
 
     # if month is filtered return statistics for this month
     else:
-        print("In {} {} rentals took place for the selected day(s)(in this case '{}'). To compare with other months restart and choose filter 'all'.\n".format(name_month, count_month, day.title()))
+        print("In {} {} rentals took place for the selected day(s)(in this case '{}'). To compare with other months choose filter 'all'.\n".format(name_month, count_month, day.title()))
 
 
     # determine the most common day with its name and total count of rentals on this day
@@ -298,7 +298,7 @@ def trip_duration_stats(df):
     print("\nThe total travel time is {} hours {} minutes and {} seconds.".format(sec_to_h(travel_total)[0], sec_to_h(travel_total)[1], sec_to_h(travel_total)[2]))
 
     # display mean travel time
-    travel_mean = round(df['Trip Duration'].mean(), 4) 
+    travel_mean = round(df['Trip Duration'].mean(), 4)
 
     print("\nThe mean trip duration is exactly {} seconds or in other words around {} hours {} minutes and {} seconds.".format(travel_mean, sec_to_h(int(travel_mean))[0], sec_to_h(int(travel_mean))[1], sec_to_h(int(travel_mean))[2]))
 
